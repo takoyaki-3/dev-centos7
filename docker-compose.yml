@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  main_container:
+    image:
+      takoyaki3/dev-centos7
+    volumes:
+      - ./volume:/volume
