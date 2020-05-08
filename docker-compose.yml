@@ -6,3 +6,5 @@ services:
       takoyaki3/dev-centos7
     volumes:
       - ./volume:/volume
+    command:
+      sleep 36000
